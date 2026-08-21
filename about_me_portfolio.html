@@ -54,15 +54,18 @@
     .photo {
       min-height: 320px;
       border-radius: 28px;
-      background: linear-gradient(135deg, #d9c7b8, #fffaf3);
       border: 1px solid var(--line);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--accent);
-      font-weight: 700;
-      text-align: center;
-      padding: 24px;
+      overflow: hidden;
+      background: #fffaf3;
+      box-shadow: 0 14px 34px rgba(70, 51, 35, 0.08);
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      min-height: 320px;
+      display: block;
+      object-fit: cover;
+      object-position: center;
     }
     .grid {
       display: grid;
@@ -101,7 +104,7 @@
     @media (max-width: 760px) {
       .hero, .grid { grid-template-columns: 1fr; }
       .wide { grid-column: span 1; }
-      .photo { min-height: 220px; }
+      .photo, .photo img { min-height: 220px; }
     }
   </style>
 </head>
@@ -115,7 +118,9 @@
           I am a civil engineer who thinks in systems, structures, and decisions. My work connects engineering logic, cost control, digital tools, and clear communication.
         </p>
       </div>
-      <div class="photo">Add profile photo<br/>or project image here</div>
+      <div class="photo">
+        <img src="assets/civil-hero.jpg" alt="Civil engineering drawings, pile foundation details and BOQ workspace" />
+      </div>
     </section>
 
     <section class="grid">
