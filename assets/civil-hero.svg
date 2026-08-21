@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Civil engineering foundation illustration</title>
+  <desc id="desc">Minimal technical line drawing of a pile cap, piles, drawings and quantity schedule in a warm neutral palette.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf9"/>
+      <stop offset="1" stop-color="#efe5da"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#7a5c3e" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" rx="44" fill="url(#bg)"/>
+  <rect width="1200" height="900" rx="44" fill="url(#grid)"/>
+
+  <!-- subtle dimension / drawing field -->
+  <g fill="none" stroke="#7a5c3e" stroke-opacity=".18" stroke-width="2">
+    <path d="M690 92H1085M690 112H980M730 142H1120"/>
+    <path d="M864 74V238M1095 76V292"/>
+    <path d="M850 102l14-8 14 8M1081 102l14-8 14 8"/>
+    <circle cx="960" cy="198" r="78"/>
+    <circle cx="960" cy="198" r="46"/>
+    <path d="M882 198h156M960 120v156"/>
+  </g>
+
+  <!-- foundation axon -->
+  <g transform="translate(620 220)" stroke="#4e4033" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="#f7f1ea" stroke-width="4">
+      <path d="M120 90 340 24 500 116 278 184Z"/>
+      <path d="M120 90v108l158 92 222-68V116"/>
+      <path d="M278 184v106"/>
+    </g>
+
+    <!-- column cage -->
+    <g fill="none" stroke="#7a5c3e" stroke-width="3">
+      <path d="M270 12v152M294 6v150M318 0v148M342 8v146"/>
+      <path d="M258 40h96M258 72h96M258 104h96M258 136h96"/>
+    </g>
+
+    <!-- piles -->
+    <g fill="#fffdfa" stroke-width="4">
+      <path d="M166 198v300l22 18 22-18V224"/>
+      <path d="M244 244v300l22 18 22-18V274"/>
+      <path d="M330 236v300l22 18 22-18V260"/>
+      <path d="M414 208v300l22 18 22-18V232"/>
+    </g>
+
+    <!-- rebar hints -->
+    <g fill="none" stroke="#7a5c3e" stroke-opacity=".55" stroke-width="2.5">
+      <path d="m160 120 158 92 178-54M184 96l158 92 136-42M214 80l154 88"/>
+      <path d="M194 112v104M238 98v144M290 78v178M344 62v186M400 48v168"/>
+    </g>
+  </g>
+
+  <!-- BOQ / schedule sheet -->
+  <g transform="translate(82 500)">
+    <rect width="430" height="255" rx="18" fill="#fff" stroke="#ded6cc" stroke-width="3"/>
+    <rect x="24" y="24" width="382" height="34" rx="8" fill="#7a5c3e" fill-opacity=".10"/>
+    <g stroke="#cfc3b6" stroke-width="2">
+      <path d="M24 82h382M24 118h382M24 154h382M24 190h382M24 226h382"/>
+      <path d="M210 24v202M294 24v202M356 24v202"/>
+    </g>
+    <g fill="#7a5c3e" fill-opacity=".34">
+      <rect x="38" y="94" width="128" height="8" rx="4"/>
+      <rect x="38" y="130" width="104" height="8" rx="4"/>
+      <rect x="38" y="166" width="142" height="8" rx="4"/>
+      <rect x="38" y="202" width="90" height="8" rx="4"/>
+      <rect x="228" y="94" width="42" height="8" rx="4"/>
+      <rect x="308" y="94" width="30" height="8" rx="4"/>
+      <rect x="370" y="94" width="22" height="8" rx="4"/>
+    </g>
+  </g>
+
+  <!-- plan detail -->
+  <g transform="translate(116 120)" fill="none" stroke="#7a5c3e" stroke-opacity=".42">
+    <rect width="330" height="260" rx="22" stroke-width="3"/>
+    <rect x="52" y="46" width="226" height="168" stroke-width="3"/>
+    <circle cx="98" cy="92" r="20" stroke-width="3"/>
+    <circle cx="232" cy="92" r="20" stroke-width="3"/>
+    <circle cx="98" cy="168" r="20" stroke-width="3"/>
+    <circle cx="232" cy="168" r="20" stroke-width="3"/>
+    <path d="M165 46v168M52 130h226" stroke-width="2"/>
+    <path d="M28 46h-14v168h14M302 46h14v168h-14" stroke-width="2"/>
+  </g>
+
+  <!-- accent -->
+  <path d="M84 818h330" stroke="#7a5c3e" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="452" cy="818" r="6" fill="#7a5c3e"/>
+</svg>
